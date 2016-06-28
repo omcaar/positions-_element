@@ -1,13 +1,57 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Johannes hat nen Schwanz so groß wie ein Dinosauriar</title>
+  <title>Das Position Element</title>
+  <link href="stilesheet.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <h1>Das gute alte CSS Positions Element</h1>
+ <h1>Das gute alte CSS Position Element</h1>
    <h2> Was kann es?</h2>
-   <h2> Was will es?</h2>
-   <h2> Was soll es?</h2>
+      <ul>
+        <li>Elmente aus dem restlichen Elementfluss entfernen</li>
+        <li>an jeder beliebigen Stelle positioniert werden</li>
+
+      </ul>
+   <h2> Verschiedenen Möglichkeiten</h2>
+      <ul>
+        <li>absolute</li>
+            <ul>
+              <li>positioniereung an einer Stelle die durch left right top und bottem festgelegt wird</li>
+               <div class="beispiel1">
+                 <p>Beispiel absolut</p>
+               </div>
+            </ul>
+        <li>fixed</li>
+            <ul>
+              <li>ist gut für Fußzeilen</li>
+                <div class="beispiel2">
+                  <p>Beispiel fixed</p>
+                </div>
+              </ul>
+        <li>relative</li>
+            <ul>
+              <li>Element richtet sich an den Elementen "neben" sich aus</li>
+              <li>unterbricht aber den textfluss</li>
+                <div class="beispiel3">
+                  <p>Beispiel relative</p>
+                </div>
+            </ul>
+        <li>static</li>
+            <ul>
+              <li>das Element bleibt da wo es eh schon ist</li>
+              <li>bleibt also im Elementfluss</li>
+                <div class="beispiel4">
+                  <p>Beispiel static</p>
+                </div>
+        </ul>
+        <li>sticky</li>
+            <ul>
+              <li>Element behält seine Position im Elementfluss</li>
+              <li>bis ans obere oder untere Seitenende dort „kleben“ bleiben.</li>
+
+            </ul>
+      </ul>
+
 
 </body>
 </html>
